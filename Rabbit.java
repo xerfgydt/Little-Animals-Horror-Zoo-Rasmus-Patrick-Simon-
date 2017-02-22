@@ -31,7 +31,7 @@ public class Rabbit {
     }
     
     public void tellPosition(){
-        System.out.println("Jeg er Rabbit. Jeg er her: " + xPosition +"," + yPosition);
+        System.out.println("Jeg er Rabbit. Jeg rykker hertil: " + xPosition +"," + yPosition);
     }
     
     //public void mercy(String) {
