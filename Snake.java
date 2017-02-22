@@ -9,13 +9,31 @@ public class Snake {
         this.xPosition = xPosition;
         this.yPosition = yPosition; 
     }
+
+
+     //hvis man vi have en metode der retunere en værdi, "kan svare"
+
+    //public "type" getfirstname(){
+        //return this.x... ; (return afslutter metode, kan ikke placere noget nedenunder)
+    //}
+
+    //eks
+    // public String firstname = person1.getfirstname();
+    // System.out.println(firstname);
+
+    //"ovre i run class"
+
+
+
     //operations
     public void setNameSnake(String name) {
         System.out.println("Snake");
     }
 
-    public void moveUp(){
+    public int moveUp(){
         this.yPosition = yPosition + 1 ;
+        return this.yPosition;
+        
 
     }
     public void moveDown(){
@@ -32,11 +50,11 @@ public class Snake {
     }
     
     public void tellPosition(){
-        System.out.println("Jeg er Snake. Jeg er her: " + xPosition +"," + yPosition);
+        System.out.println("Jeg er Snake. Jeg rykker hertil: " + xPosition +"," + yPosition);
+         
     }
-    //public void setStartpositionsSnake(int xPosiotin && yPosition) {
 
-    //}
+
     
     //public void PositionSnake() { //opdatere koordinaterne for hvert ryk
        
